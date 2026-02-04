@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+}
+
+.texto_rojo{
+    color: tomato;
+}
+
+#texto_azul{
+    color: blue;
+}
+
+*{
+    font-family: "Outfit", sans-serif;
+}
+
+.borde{
+    border: 5px;
+    border-color: greenyellow;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.fondo{
+    background-color: coral;
+    background-image: url('https://d36tnp772eyphs.cloudfront.net/blogs/1/2015/04/Mount-Taranaki-volcano-in-New-Zealand.jpg');
+    height: 600px;
+    background-size: cover;
+}
+
+.margenes{
+    margin: 50px 30px 30px 50px;
+    padding: 30px 50px 50px 30px;
+}
+
+a{
+    font-size: 2rem;
+}
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+a:active{
+    color: chocolate;
+}
+
+ul li{
+    list-style-type: square;
+    padding-left: 0;
+    list-style-position: outside;
+}
+
+table{
+    width: 700px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px black solid;
+}
+
+th{
+    background-color: tomato;
+    cursor: grab;
+}
+
+tr:hover{
+    background-color: antiquewhite;
+}
